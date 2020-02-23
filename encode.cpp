@@ -14,8 +14,6 @@ int main()
 	cout << "Enter string to encode: \n> ";
 	getline(cin, input);
 
-	cout << input << std::endl;
-
 	for (unsigned long long i = 0; i < input.size(); i++)
 	{
 		char item = input[i];
